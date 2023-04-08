@@ -67,6 +67,17 @@ section{
     font-weight: 600;
 }
 
+/* .btn_container{
+    color: red; */
+    /* position: relative; */
+    /* margin: auto; */
+    /* width: 50%; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+
 .btn:hover{
     background:var(--main-color);
 }
@@ -82,9 +93,7 @@ section{
     padding:1.5rem 9%;
 }
 
-/* .top-logo{
-    width: 40px;
-} */
+/*   */
 
 .header .logo{
     font-weight: bolder;
@@ -212,6 +221,10 @@ section{
     padding:1rem 0;
     line-height: 2;
 }
+
+/* .about .row .content .btn{
+
+} */
 
 .gallery .box-container{
     display: grid;
@@ -572,7 +585,35 @@ section{
         font-size: 4rem;
     }
 
+    /* .btn_container{
+        color: red; */
+        /* position: relative; */
+        /* margin: auto; */
+        /* width: 50%; */
+        /* display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    } */
+
 }
+
+
+@media (max-width:848px){
+
+    .btn_container{
+        /* color: red; */
+        /* position: relative; */
+        /* margin: auto; */
+        /* width: 50%; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+}
+
 
 @media (max-width:450px){
 
